@@ -13,18 +13,28 @@
 // ---------------------------------------------
 
 
-body:after {
-    content: url("https://commons.wikimedia.org/wiki/File:Logo_linagora.png");
-    width: 100px;
-    display: block;
-    height: 30px;
-    position: absolute;
-    bottom: 1em;
-    left: 1em;
+body {
+    background-image: url("https://commons.wikimedia.org/wiki/File:Logo_linagora.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 5% 95%;
+    background-size: 160px;
 }
 
 
-// Include theme-specific fonts
+// body {
+//     content: url("https://commons.wikimedia.org/wiki/File:Logo_linagora.png");
+//     width: 100px;
+//     display: block;
+//     height: 30px;
+//     position: absolute;
+//     bottom: 1em;
+//     left: 1em;
+// }
+
+
+// include theme-specific fonts
 @import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 

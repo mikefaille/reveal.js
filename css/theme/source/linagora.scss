@@ -13,14 +13,6 @@
 // ---------------------------------------------
 
 
-body {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/03/Logo_linagora.png");
-    background-color: #fff;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 5% 95%;
-    background-size: 160px;
-}
 
 
 // body {
@@ -56,3 +48,13 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/03/Logo_linagora.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 5% 95%;
+    background-size: 160px;
+
+}
